@@ -12,5 +12,13 @@ docker rm kubia-container
 
 
 ###
+# git clone  https://github.com/kubernetes/examples
 
+
+minikube start
+
+
+
+kubectl run kubia --image=kubia --port=8080
+kubectl get pods
 
